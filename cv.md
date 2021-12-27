@@ -1,8 +1,6 @@
 # rsschool-cv
 ---
 # Svetlana Batura
-![foto](logo.png)
-
 ---
 ## Contacts for communication
 ---
