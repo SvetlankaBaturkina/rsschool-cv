@@ -8,8 +8,8 @@
 * __Phone:__ +375 (33) 688-24-72;
 * __E-mail:__ melkaya2025sveta@gmail.com;
 * __GitHub:__ @SvetlankaBaturkina;
-* __Discord:__
-* __Telegram__: @Svetlanka;
+* __Discord:__ SvetlankaBaturkina#2361;
+* __Telegram:__ @Svetlanka;
 * __Instagram:__ @svetlanka.baturkina.
 ---
 ## About me
@@ -30,7 +30,9 @@ In process:
 ## Code example
 ---
 ```
-no code
+function multiply(a, b) {
+ return a * B
+}
 ```
 ---
 ## Completed projects
@@ -52,9 +54,10 @@ no code
   * _[CSS для начинающих](https://ru.code-basics.com/languages/css)_;
 * Books and web
   * _[Git](https://git-scm.com/book/ru/v2)_;
-  * _[Duolingo](https://www.duolingo.com/learn)_.
+  * _[Duoling](https://www.duolingo.com/learn)_.
 ---
-## Languages
+  ## Languages
+---
 * Belorussian;
 * Russian;
 * Polish language (a little);

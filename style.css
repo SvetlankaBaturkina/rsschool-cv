@@ -1,2 +1,254 @@
-.weight {font-weight: bold;
+@font-face {
+    font-family:  Luciano Vergara;
+    src: url("assets/fonts/JuliusSansOne-Regular.ttf");
 }
+
+* {
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+html {
+    scroll-behavior: smoot;
+}
+
+body {
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin: 0px auto;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color: darkblue;
+    font-weight: bold;
+    transition: 3s;
+    margin: 0 auto;
+}
+
+.nav {
+    max-width: 1440px;
+}
+
+.main-container-1 {
+    width: 40%;
+    padding: 20px 40px;
+    background-color: rgb(226, 214, 104);
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 3px;
+    border-right: 0px;
+    border-style: solid;
+    border-color: black;
+}
+
+.main-container-2 {
+    max-width: 60%;
+    padding: 0px 40px 100px 20px;
+    background-color: rgb(233, 230, 200);
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 3px;
+    border-style: solid;
+    border-color: black;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+    padding: 60px 30px 40px 40px;
+}
+
+#about_me p {
+    padding: 0 0 0 60px;
+}
+
+main {
+    padding: 0 20 0 0px;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    padding: auto;
+}
+
+header {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    border-top: 3px;
+    border-bottom: 3px;
+    border-left: 3px;
+    border-right: 3px;
+    border-style: solid;
+    border-color: black;
+    background-color: rgb(226, 214, 104);
+}
+
+section#foto {
+    text-align: center;
+}
+
+#contacts_for_communication ul {
+    list-style-type: none;
+}
+
+#skills ul {
+    list-style-type: square;
+    padding: 0px 25px;
+}
+
+#skills ol {
+    list-style-type: none;
+}
+
+.phone-1 {
+    background: url("assets/svg/call3.png") no-repeat;
+    background-size: 20px;
+    padding-left: 25px;
+    font-weight: bold;
+}
+
+.phone-2 {
+    padding-left: 25px;
+    padding-bottom: 5px;
+}
+
+.e-mail-1 {
+    background: url("assets/svg/e-mail.png") no-repeat;
+    background-size: 20px;
+    padding-left: 25px;
+    font-weight: bold;
+}   
+
+.e-mail-2 {
+    padding-left: 25px;
+    padding-bottom: 5px;
+}
+
+.location-1 {
+    background: url("assets/svg/location.png") no-repeat;
+    background-size: 20px;
+    padding-left: 25px;
+    font-weight: bold;
+}
+
+.location-2 {
+    padding-left: 25px;
+    padding-bottom: 5px;
+}
+
+.github-1 {
+    background: url("assets/svg/chat.png") no-repeat;
+    background-size: 20px;
+    padding-left: 25px;
+    font-weight: bold;
+}
+
+.github-2 {
+    padding-left: 25px;
+    padding-bottom: 5px;
+}
+
+.discord-1 {
+    background: url("assets/svg/chat.png") no-repeat;
+    background-size: 20px;
+    padding-left: 25px;
+    font-weight: bold;
+}
+
+.discord-2 {
+    padding-left: 25px;
+    padding-bottom: 5px;
+}
+
+.codewars-1 {
+    background: url("assets/svg/chat.png") no-repeat;
+    background-size: 20px;
+    padding-left: 25px;
+    font-weight: bold;
+}
+
+.codewars-2 {
+    padding-left: 25px;
+    padding-bottom: 5px;
+}
+
+p {
+    text-align: justify;
+}
+
+.section-title  {
+    padding: 0px 40px 0px 30px;
+}
+
+.section-code  {
+    padding: 0px 0px 0px 0px;
+}
+
+ .footer img {
+    height: 40px;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px auto;
+    background-color: rgb(226, 214, 104);
+    color: darkblue;
+    border-top: 3px;
+    border-bottom: 3px;
+    border-left: 3px;
+    border-right: 3px;
+    border-style: solid;
+    border-color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+pre {
+    border-top: 1px;
+    border-bottom: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    border-style: dashed;
+    border-color: black;
+    margin: 0px 50px 0px 40px;
+    padding: 10px 0px 0px 0px;
+}
+
+.list li {
+    margin-left: 40px;
+}
+
+
