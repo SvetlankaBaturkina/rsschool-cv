@@ -1,9 +1,14 @@
+@font-face {
+    font-family:  Luciano Vergara;
+    src: url("assets/fonts/JuliusSansOne-Regular.ttf");
+}
 * {
     box-sizing: border-box;
 }
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smoot;
 }
+
 body {
     min-height: 100vh;
     margin: 0;
@@ -13,6 +18,7 @@ body {
     justify-content: space-between;
 }
 .container {
+    display: flex;
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -31,3 +37,89 @@ body {
     color: darkblue;
     transition: 3s;
 }
+
+.main-container-1 {
+    width: 35%;
+    padding: 40px 40px;
+    background-color: rgb(223, 212, 114);
+}
+
+.main-container-2 {
+    width: 65%;
+    padding: 40px 40px;
+    background-color: rgb(233, 230, 200);  
+}
+
+main {
+    padding: 0 20 0 0px;
+    border-top: 0px;
+    border-bottom: 3px;
+    border-left: 3px;
+    border-right: 3px;
+    border-style: solid;
+    border-color: black;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
+header {
+    border-top: 3px;
+    border-bottom: 3px;
+    border-left: 3px;
+    border-right: 3px;
+    border-style: solid;
+    border-color: black;
+    background-color: rgb(223, 212, 114);
+}
+
+section#foto {
+    text-align: center;
+}
+
+#contacts_for_communication ul {
+    list-style-type: none; 
+}
+#skills ul {
+    list-style-type: square;
+}
+
+.phone {
+    background: url("assets/svg/call3.png") no-repeat;
+    padding-left: 25px;
+}
+.e-mail {
+    background: url("assets/svg/e-mail.png") no-repeat;
+    padding-left: 25px;
+}
+.location {
+    background: url("assets/svg/location.png") no-repeat;
+    padding-left: 25px;
+}
+.github {
+    background: url("assets/svg/chat.png") no-repeat;
+    padding-left: 25px;
+}
+.discord {
+    background: url("assets/svg/chat.png") no-repeat;
+    padding-left: 25px;
+}
+.codewars {
+    background: url("assets/svg/chat.png") no-repeat;
+    padding-left: 25px;
+}
+.section p, span {
+    margin-block-start: 0em;
+    margin-block-end: 2px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
