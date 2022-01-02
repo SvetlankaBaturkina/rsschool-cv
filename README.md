@@ -1,1 +1,1 @@
-# rsschool-cv
+https://SvetlankaBaturkina.github.io/rsschool-cv/
